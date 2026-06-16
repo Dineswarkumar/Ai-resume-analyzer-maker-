@@ -1,0 +1,64 @@
+{
+  "weights": {
+    "contact_info": 10,
+    "summary": 5,
+    "skills": 20,
+    "experience": 20,
+    "education": 10,
+    "projects": 15,
+    "certifications": 10,
+    "formatting": 10
+  },
+  "skills_taxonomy": {
+    "programming_languages": ["python", "java", "javascript", "typescript", "c++", "c#", "go", "rust", "kotlin", "swift", "r", "matlab"],
+    "web_frameworks": ["react", "angular", "vue", "node.js", "express", "django", "flask", "fastapi", "spring", "laravel", "next.js"],
+    "databases": ["sql", "mysql", "postgresql", "mongodb", "redis", "elasticsearch", "sqlite", "cassandra", "dynamodb"],
+    "cloud_devops": ["docker", "kubernetes", "aws", "azure", "gcp", "terraform", "ci/cd", "jenkins", "github actions", "ansible"],
+    "ml_ai": ["machine learning", "deep learning", "nlp", "computer vision", "tensorflow", "pytorch", "scikit-learn", "keras", "openai"],
+    "data_tools": ["pandas", "numpy", "matplotlib", "seaborn", "power bi", "tableau", "hadoop", "spark", "airflow"],
+    "tools": ["git", "linux", "rest api", "graphql", "microservices", "agile", "scrum", "jira", "figma"]
+  },
+  "scoring_rules": {
+    "contact_info": {
+      "name": 2,
+      "email": 2,
+      "phone": 2,
+      "linkedin": 2,
+      "github_or_portfolio": 2
+    },
+    "skills": {
+      "min_skills_for_full_score": 8,
+      "points_per_skill": 2.5,
+      "diversity_bonus": 5
+    },
+    "experience": {
+      "points_per_role": 5,
+      "max_roles": 3,
+      "action_verb_bonus": 2,
+      "quantification_bonus": 3
+    },
+    "education": {
+      "degree_present": 6,
+      "institution_present": 2,
+      "gpa_present": 2
+    },
+    "projects": {
+      "points_per_project": 3,
+      "max_projects": 4,
+      "url_bonus": 1,
+      "tech_stack_bonus": 1
+    },
+    "certifications": {
+      "points_per_cert": 2,
+      "max_certs": 5
+    }
+  },
+  "grade_thresholds": {
+    "A+": 90,
+    "A": 80,
+    "B+": 70,
+    "B": 60,
+    "C": 50,
+    "D": 0
+  }
+}
