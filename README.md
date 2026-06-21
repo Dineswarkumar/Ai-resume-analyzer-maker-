@@ -127,12 +127,12 @@ The resume is scored across **8 categories** (total 100 points):
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/api/resume/parse` | Upload & parse resume file |
+| POST | `/api/resume/parse` | Upload &parse resume file |
 | POST | `/api/resume/export/pdf` | Generate PDF |
 | POST | `/api/resume/export/docx` | Generate DOCX |
 | POST | `/api/resume/export/json` | Export JSON |
 | POST | `/api/analyze/` | Full ML analysis |
-| GET | `/api/templates/` | List templates |
+| GET | `/api/templates/` | List template |
 | GET | `/health` | Health check |
 
 ---
